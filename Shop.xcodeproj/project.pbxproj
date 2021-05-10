@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F3A299642649132D00F99208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A299632649132D00F99208 /* AppDelegate.swift */; };
 		F3A299662649132D00F99208 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A299652649132D00F99208 /* SceneDelegate.swift */; };
-		F3A299682649132D00F99208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A299672649132D00F99208 /* ViewController.swift */; };
 		F3A2996B2649132D00F99208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A299692649132D00F99208 /* Main.storyboard */; };
 		F3A2996D2649132E00F99208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A2996C2649132E00F99208 /* Assets.xcassets */; };
 		F3A299702649132E00F99208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A2996E2649132E00F99208 /* LaunchScreen.storyboard */; };
+		F3A29979264913B700F99208 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3A29978264913B700F99208 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3A299602649132D00F99208 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A299632649132D00F99208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3A299652649132D00F99208 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3A299672649132D00F99208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3A2996A2649132D00F99208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3A2996C2649132E00F99208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A2996F2649132E00F99208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A299712649132E00F99208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A29978264913B700F99208 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		F3A299572649132D00F99208 = {
 			isa = PBXGroup;
 			children = (
+				F3A29978264913B700F99208 /* README.md */,
 				F3A299622649132D00F99208 /* Shop */,
 				F3A299612649132D00F99208 /* Products */,
 			);
@@ -58,7 +59,6 @@
 			children = (
 				F3A299632649132D00F99208 /* AppDelegate.swift */,
 				F3A299652649132D00F99208 /* SceneDelegate.swift */,
-				F3A299672649132D00F99208 /* ViewController.swift */,
 				F3A299692649132D00F99208 /* Main.storyboard */,
 				F3A2996C2649132E00F99208 /* Assets.xcassets */,
 				F3A2996E2649132E00F99208 /* LaunchScreen.storyboard */,
@@ -126,6 +126,7 @@
 			files = (
 				F3A299702649132E00F99208 /* LaunchScreen.storyboard in Resources */,
 				F3A2996D2649132E00F99208 /* Assets.xcassets in Resources */,
+				F3A29979264913B700F99208 /* README.md in Resources */,
 				F3A2996B2649132D00F99208 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A299682649132D00F99208 /* ViewController.swift in Sources */,
 				F3A299642649132D00F99208 /* AppDelegate.swift in Sources */,
 				F3A299662649132D00F99208 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3BYTBR63S;
 				INFOPLIST_FILE = Shop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3BYTBR63S;
 				INFOPLIST_FILE = Shop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
