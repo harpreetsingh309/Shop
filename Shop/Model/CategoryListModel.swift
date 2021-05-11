@@ -2,7 +2,7 @@
 //  CategoryListModel.swift
 //  Shop
 //
-//  Created by macexpert on 10/05/21.
+//  Created by Harpreet on 10/05/21.
 //
 
 import Foundation
@@ -14,7 +14,6 @@ struct CategoryListModel : Codable {
     let next : String?
 
     enum CodingKeys: String, CodingKey {
-
         case objects = "objects"
         case next = "next"
     }
@@ -24,7 +23,6 @@ struct CategoryListModel : Codable {
         objects = try values.decodeIfPresent([Objects].self, forKey: .objects)
         next = try values.decodeIfPresent(String.self, forKey: .next)
     }
-
 }
 
 //MARK: - Objects
@@ -35,7 +33,6 @@ struct Objects : Codable {
     let size : Size?
 
     enum CodingKeys: String, CodingKey {
-
         case category = "category"
         case title = "title"
         case weight = "weight"
@@ -49,7 +46,6 @@ struct Objects : Codable {
         weight = try values.decodeIfPresent(Double.self, forKey: .weight)
         size = try values.decodeIfPresent(Size.self, forKey: .size)
     }
-
 }
 
 //MARK: - Size
@@ -59,7 +55,6 @@ struct Size : Codable {
     let height : Double?
 
     enum CodingKeys: String, CodingKey {
-
         case width = "width"
         case length = "length"
         case height = "height"
@@ -71,5 +66,4 @@ struct Size : Codable {
         length = try values.decodeIfPresent(Double.self, forKey: .length)
         height = try values.decodeIfPresent(Double.self, forKey: .height)
     }
-
 }

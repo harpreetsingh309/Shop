@@ -2,7 +2,7 @@
 //  Constants.swift
 //  Shop
 //
-//  Created by macexpert on 10/05/21.
+//  Created by Harpreet on 10/05/21.
 //
 
 import Foundation
@@ -26,3 +26,6 @@ struct Errors {
     static let noInternet = "Your Internet connection appears to be offline."
     static let serverError = "Internal server error occurred, try again after some time"
 }
+
+
+
